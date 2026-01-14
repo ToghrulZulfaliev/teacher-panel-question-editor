@@ -1,16 +1,64 @@
-# React + Vite
+# Teacher Panel – Question Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A teacher panel module for creating and managing exam questions with rich text, mathematical formulas, and image support.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a part of an exam management system.  
+The **Teacher Panel – Question Editor** allows teachers to create rich and well-structured exam questions that can be displayed correctly for students.
 
-## React Compiler
+The goal of this module is to make question creation **easy, flexible, and professional**, especially for subjects like Math, Physics, and Chemistry.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Rich text editor for writing long-form questions
+- Text formatting support:
+  - Bold, italic, underline
+  - Headings and paragraphs
+  - Bullet and numbered lists
+- Mathematical formula support (fractions, powers, equations)
+- Image upload and embedding inside questions
+- Image preview before saving
+- Inline image rendering with text
+- Clean and scalable component-based structure
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- Redux Toolkit (state management)
+- Rich Text Editor
+- Math rendering (LaTeX-based)
+- CSS / Tailwind CSS
+
+---
+## 🎯 Use Case
+
+- Teachers preparing online exams or tests
+- Educational platforms
+- LMS (Learning Management Systems)
+- Schools and universities
+
+---
+
+## 📌 Future Improvements
+
+- Question preview in student view
+- Question scoring system
+- Drag & drop for images
+- Multi-language support
+- Backend integration
+
+---
+
+## 👨‍💻 Author
+
+**Toghrul Zulfaliyev**  
+Front-End Developer (React.js)
+
+
+
